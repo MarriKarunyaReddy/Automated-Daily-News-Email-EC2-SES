@@ -7,11 +7,11 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 
 # AWS SES Configuration
 AWS_REGION = "us-east-1"  # Change if your SES is in a different region
-SENDER_EMAIL = "marrikarunyareddy@gmail.com"  # Your verified SES email
-RECIPIENT_EMAIL = "marrikarunyareddy@gmail.com"  # Change if needed
+SENDER_EMAIL = "example@gmail.com"  # Your verified SES email
+RECIPIENT_EMAIL = "example@gmail.com"  # Change if needed
 
 # News API Configuration (Get API key from https://newsapi.org/)
-NEWS_API_KEY = "782b826f1f754036ad16089247f92209"  # Replace with your actual NewsAPI key
+NEWS_API_KEY = "{yournewsapikey}"  # Replace with your actual NewsAPI key
 NEWS_URL = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={NEWS_API_KEY}"
 
 # Initialize AWS SES Client
